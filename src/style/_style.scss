@@ -1,0 +1,31 @@
+// _style.scss
+
+// --- 변수 설정 ---
+$font-main: 'Malgun Gothic', sans-serif;
+$bg-body: #ececec;
+$white: #ffffff;
+$primary-blue: #007bff;
+$primary-dark-blue: #0056b3;
+$success-green: #28a745;
+$success-dark-green: #218838;
+$secondary-gray: #6c757d;
+$text-dark: #333333;
+$text-light: #666666;
+
+// 상태별 색상
+$owned-bg: #e8f5e9;
+$owned-text: #2e7d32;
+$uninstall-bg: #ffebee;
+$uninstall-text: #c62828;
+
+// --- Mixin 정의 ---
+@mixin flex-style(
+  $flexDirection: row,
+  $alignVal: center,
+  $justifyVal: center
+) {
+  display: flex;
+  flex-direction: $flexDirection;
+  align-items: $alignVal;
+  justify-content: $justifyVal;
+}

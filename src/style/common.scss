@@ -1,0 +1,161 @@
+// common.scss
+@import './style';
+
+// --- 공통 레이아웃 클래스 ---
+.column {
+  @include flex-style(column);
+}
+
+.row {
+  @include flex-style(row);
+}
+
+// --- 초기 모달 ---
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  @include flex-style(); // 중앙 정렬
+  z-index: 1000;
+
+  .modal-content {
+    padding: 20px;
+    background: $white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    button {
+      margin: 0 10px;
+      padding: 10px;
+      border-radius: 16px;
+      background-color: $primary-blue;
+      color: white;
+      border: 1px solid white;
+      font-weight: bold;
+      &:hover {
+        cursor: pointer;
+        background-color: $primary-dark-blue;
+      }
+    }
+  }
+
+  .modal-btns {
+    @include flex-style();
+    gap: 20px;
+    margin-top: 25px
+  }
+}
+
+// --- 모드 비교 레이아웃 ---
+.main-container {
+  margin: 20px
+}
+.mod-comparison {
+  @include flex-style(row, stretch, center);
+  gap: 10px;
+  height: 350px;
+  margin-bottom: 15px;
+
+  .mod-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fdfdfd;
+    overflow: hidden;
+
+    h3 {
+      font-size: 14px;
+      padding: 10px;
+      margin: 0;
+      background: #eee;
+      border-bottom: 1px solid #ddd;
+    }
+
+    // 리스트 컨테이너 (ul)
+    ul {
+      flex: 1;
+      overflow-y: auto;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 8px 12px;
+        font-size: 13px;
+        border-bottom: 1px solid #f0f0f0;
+        cursor: pointer;
+        transition: background 0.2s;
+
+        &:hover {
+          background: #f0f7ff;
+        }
+
+        &.mod-item {
+          &.owned {
+            background-color: $owned-bg !important;
+            color: $owned-text;
+          }
+          &.to-uninstall {
+            background-color: $uninstall-bg !important;
+            color: $uninstall-text;
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+}
+
+// --- 경로 섹션 ---
+.path-section {
+  display: flex;
+  margin: 15px 0;
+  gap: 10px;
+
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #f9f9f9;
+  }
+}
+
+// --- 하단 푸터 ---
+footer {
+  @include flex-style(row, center, space-between);
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+
+  span {
+    font-size: 13px;
+    color: $text-light;
+  }
+}
+
+// --- 버튼 테마 ---
+%btn-base {
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.success-btn {
+  @extend %btn-base;
+  padding: 12px 30px;
+  background: $success-green;
+  color: $white;
+  border-radius: 5px;
+  &:hover {
+    background: $success-dark-green;
+  }
+}
