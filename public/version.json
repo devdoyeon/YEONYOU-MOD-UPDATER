@@ -1,5 +1,5 @@
 {
-  "version": "v1776045319281",
+  "version": "v1776244477554",
   "modList": [
     "BetterF3-7.0.2-Forge-1.20.1.jar",
     "cloth-config-11.1.136-forge.jar",
@@ -14,9 +14,11 @@
     "lradd-1.20.1-0.3.0.jar",
     "resourcefulconfig-forge-1.20.1-2.1.3.jar",
     "resourcefullib-forge-1.20.1-2.1.29.jar",
+    "servermotd-1.0.jar",
     "tacz-1.20.1-1.1.7-hotfix2.jar",
+    "travelersbackpack-forge-1.20.1-9.1.53.jar",
     "xaerominimap-forge-1.20.1-25.3.10.jar",
     "xaeroworldmap-forge-1.20.1-1.40.11.jar"
   ],
-  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1776045319281/"
+  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1776244477554/"
 }
