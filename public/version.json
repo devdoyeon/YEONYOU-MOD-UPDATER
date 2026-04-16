@@ -1,5 +1,5 @@
 {
-  "version": "v1776345260640",
+  "version": "v1776345470158",
   "modList": [
     "additional_recipes-1.6.0-forge-1.20.1.jar",
     "appleskin-forge-mc1.20.1-2.5.1.jar",
@@ -35,9 +35,8 @@
     "tacz-1.20.1-1.1.7-hotfix2.jar",
     "travelersbackpack-forge-1.20.1-9.1.53.jar",
     "TreeChop-1.20.1-forge-0.19.0-fixed.jar",
-    "valkyrienskies-120-2.4.11.jar",
     "xaerominimap-forge-1.20.1-25.3.10.jar",
     "xaeroworldmap-forge-1.20.1-1.40.11.jar"
   ],
-  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1776345260640/"
+  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1776345470158/"
 }
