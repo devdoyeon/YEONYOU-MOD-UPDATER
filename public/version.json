@@ -1,11 +1,10 @@
 {
-  "version": "v1776344392983",
+  "version": "v1776344658893",
   "modList": [
     "additional_recipes-1.6.0-forge-1.20.1.jar",
     "appleskin-forge-mc1.20.1-2.5.1.jar",
     "architectury-9.2.14-forge.jar",
     "BetterF3-7.0.2-Forge-1.20.1.jar",
-    "BlueprintsMod-1.20.1v1.0.2.jar",
     "cloth-config-11.1.136-forge.jar",
     "collective-1.20.1-8.20.jar",
     "create-1.20.1-6.0.8.jar",
@@ -41,5 +40,5 @@
     "xaerominimap-forge-1.20.1-25.3.10.jar",
     "xaeroworldmap-forge-1.20.1-1.40.11.jar"
   ],
-  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1776344392983/"
+  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1776344658893/"
 }
