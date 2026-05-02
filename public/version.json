@@ -1,11 +1,9 @@
 {
-  "version": "v1777731275110",
+  "version": "v1777731736694",
   "modList": [
     "appleskin-neoforge-mc1.21-3.0.9.jar",
     "architectury-13.0.8-neoforge.jar",
     "balm-neoforge-1.21.1-21.0.56.jar",
-    "better-clouds-1.7.20-alpha+1.21.1-neoforge.rev.4c611d9.jar",
-    "betterfpsdist-1.21-6.0.jar",
     "biolith-neoforge-3.0.10.jar",
     "CarbonConfig-Neoforge-1.21-2.0.2.jar",
     "chunkloaders-1.2.8-neoforge-mc1.21.jar",
@@ -14,7 +12,6 @@
     "collective-1.21.1-8.22.jar",
     "configured-neoforge-1.21.1-2.6.3.jar",
     "connector-2.0.0-beta.14+1.21.1-full.jar",
-    "continuity-3.0.0+1.21.neoforge.jar",
     "copycats-3.0.4+mc.1.21.1-neoforge.jar",
     "create-1.21.1-6.0.10.jar",
     "create-aeronautics-bundled-1.21.1-1.2.1.jar",
@@ -40,10 +37,8 @@
     "FarmersDelight-1.21.1-1.3.1.jar",
     "ferritecore-7.0.3-neoforge.jar",
     "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
-    "freecam-neoforge-1.3.0+mc1.21.jar",
     "fusion-1.2.12-neoforge-mc1.21.1.jar",
     "geckolib-neoforge-1.21.1-4.8.4.jar",
-    "gjeb-neoforge-1.21.1-1.3.0.40.jar",
     "GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
     "interiors-1.21.1-neoforge-0.6.1.jar",
     "Jade-1.21.1-NeoForge-15.10.5.jar",
@@ -60,7 +55,6 @@
     "sable-neoforge-1.21.1-1.2.2.jar",
     "simplylight-1.5.3+1.21.1-b4.jar",
     "sliceanddice-forge-4.2.4.jar",
-    "sodium-neoforge-0.6.13+mc1.21.1.jar",
     "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
     "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
     "tacz-neoforge-1.21.1-1.1.7-hotfix-r5.jar",
@@ -72,5 +66,5 @@
     "xaeroworldmap-neoforge-1.21.1-1.40.11.jar",
     "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
   ],
-  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1777731275110/"
+  "downloadBaseUrl": "https://github.com/devdoyeon/YEONYOU-MOD-UPDATER/releases/download/v1777731736694/"
 }
